@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- coordinatorlayout 负责管理子控件与自己的联动，以及子控件之间的联动 -->
 <android.support.design.widget.CoordinatorLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -121,6 +122,6 @@
             android:src="@drawable/small"
             app:border_color="@android:color/white"
             app:border_width="2dp"
-            app:layout_behavior=".AvatarImageBehavior"/>
+            app:layout_behavior="com.waj.testcoordinatorlayoutbook.AvatarImageBehavior"/>
 
 </android.support.design.widget.CoordinatorLayout>
